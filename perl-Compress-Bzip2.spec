@@ -26,7 +26,7 @@ Compress::Bzip2 - interfejs do biblioteki Bzip2.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
