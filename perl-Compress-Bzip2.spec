@@ -21,7 +21,7 @@ Compress-Bzip2 - Interface to Bzip2 compression library.
 Compress-Bzip2 - interfejs do biblioteki Bzip2.
 
 %prep
-%setup -q -n {pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
