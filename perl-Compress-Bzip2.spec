@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Compress
 %define		pnam	Bzip2
-Summary:	Compress-Bzip2 perl module
-Summary(pl):	Modu³ perla Compress-Bzip2
+Summary:	Compress::Bzip2 perl module
+Summary(pl):	Modu³ perla Compress::Bzip2
 Name:		perl-Compress-Bzip2
 Version:	1.00
 Release:	7
@@ -15,10 +15,10 @@ BuildRequires:	bzip2-devel >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Compress-Bzip2 - Interface to Bzip2 compression library.
+Compress::Bzip2 - Interface to Bzip2 compression library.
 
 %description -l pl
-Compress-Bzip2 - interfejs do biblioteki Bzip2.
+Compress::Bzip2 - interfejs do biblioteki Bzip2.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
