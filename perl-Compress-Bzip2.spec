@@ -3,8 +3,8 @@
 %bcond_with	tests	# do not perform "make test"
 
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Compress
-%define		pnam	Bzip2
+%define	pdir	Compress
+%define	pnam	Bzip2
 Summary:	Compress::Bzip2 - Perl interface to Bzip2 compression library
 Summary(pl):	Compress::Bzip2 - interfejs perlowy do biblioteki kompresji Bzip2
 Name:		perl-Compress-Bzip2
