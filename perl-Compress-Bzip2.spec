@@ -9,7 +9,7 @@ Summary:	Compress::Bzip2 - Perl interface to Bzip2 compression library
 Summary(pl):	Compress::Bzip2 - interfejs perlowy do biblioteki kompresji Bzip2
 Name:		perl-Compress-Bzip2
 Version:	1.02
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
