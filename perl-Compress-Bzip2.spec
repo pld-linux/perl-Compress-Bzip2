@@ -32,14 +32,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README NEWS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README NEWS
 %{perl_sitearch}/Compress/Bzip2.pm
 %dir %{perl_sitearch}/auto/Compress/Bzip2
 %{perl_sitearch}/auto/Compress/Bzip2/Bzip2.bs
