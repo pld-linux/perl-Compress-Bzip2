@@ -24,7 +24,7 @@ Compress::Bzip2 - interfejs do biblioteki Bzip2.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
