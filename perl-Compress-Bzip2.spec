@@ -3,14 +3,14 @@ Summary:	Compress-Bzip2 perl module
 Summary(pl):	Modu³ perla Compress-Bzip2
 Name:		perl-Compress-Bzip2
 Version:	1.00
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Compress/Compress-Bzip2-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	perl >= 5.6
 BuildRequires:	bzip2-devel >= 1.0.0
 %requires_eq	perl
 Requires:	%{perl_sitearch}
