@@ -6,7 +6,7 @@
 %define		pdir	Compress
 %define		pnam	Bzip2
 Summary:	Compress::Bzip2 - Perl interface to Bzip2 compression library
-Summary(pl):	Compress::Bzip2 - interfejs perlowy do biblioteki kompresji Bzip2
+Summary(pl.UTF-8):   Compress::Bzip2 - interfejs perlowy do biblioteki kompresji Bzip2
 Name:		perl-Compress-Bzip2
 Version:	2.09
 Release:	1
@@ -24,10 +24,10 @@ The Compress::Bzip2 module provides a Perl interface to the Bzip2
 compression library. A relevant subset of the functionality provided
 by Bzip2 is available in Compress::Bzip2.
 
-%description -l pl
-Modu³ Compress::Bzip2 udostêpnia interfejs perlowy do biblioteki
-kompresji Bzip2. Compress::Bzip2 udostêpnia zwi±zany z tym podzbiór
-zbioru funkcji udostêpnianych przez Bzip2.
+%description -l pl.UTF-8
+ModuÅ‚ Compress::Bzip2 udostÄ™pnia interfejs perlowy do biblioteki
+kompresji Bzip2. Compress::Bzip2 udostÄ™pnia zwiÄ…zany z tym podzbiÃ³r
+zbioru funkcji udostÄ™pnianych przez Bzip2.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
