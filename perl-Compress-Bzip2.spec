@@ -12,8 +12,9 @@ Version:	2.09
 Release:	2
 License:	GPL v2
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1699fde3e86f2a036f135ae606d456bf
+URL:		http://search.cpan.org/dist/Compress-Bzip2/
 BuildRequires:	bzip2-devel >= 1.0.0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
