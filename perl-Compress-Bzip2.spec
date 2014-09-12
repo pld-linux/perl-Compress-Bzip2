@@ -55,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README NEWS
 %{perl_vendorarch}/Compress/Bzip2.pm
 %dir %{perl_vendorarch}/auto/Compress/Bzip2
-%{perl_vendorarch}/auto/Compress/Bzip2/Bzip2.bs
 %{perl_vendorarch}/auto/Compress/Bzip2/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Compress/Bzip2/Bzip2.so
 %{_mandir}/man3/*
