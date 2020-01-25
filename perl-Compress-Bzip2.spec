@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Compress
 %define		pnam	Bzip2
 Summary:	Compress::Bzip2 - Perl interface to Bzip2 compression library
